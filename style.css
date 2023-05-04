@@ -1,3 +1,20 @@
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  .imagem{
+    padding: 5%;
+    height: 5vh;
+    width: auto;
+    margin-top: 3vh;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+  }
+
 body {
     background-color: #fff;
   }
