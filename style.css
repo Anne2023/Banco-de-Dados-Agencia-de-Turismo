@@ -1,5 +1,19 @@
+html{
+    scroll-behavior: smooth;
+    background-color: #0072c6;
+}
+:root{
+    --collor-yellow: #f7d000;
+    --collor-blue: #0072c6;
+    --collor-purple: #52438b;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
 header {
-    background-color: #f2f2f2;
+    background-color: #0072c6;
     padding: 20px;
     text-align: center;
   }
