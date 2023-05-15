@@ -3,6 +3,24 @@
 <head>
 	<title>Minha agência de turismo</title>
     <link rel="stylesheet" href="style.css">
+	<script> src="./script.js" </script>
+	<nav>
+      
+		<ul class="menu">
+			<header>
+				<h1>Minha agência de turismo</h1>
+		  
+		  <li class="logo"><a href="#" title="Loop Nerd">Home</a></li>
+		  <li class="item"><a href="#" title="Home">Destinos</a></li>
+		  <li class="item"><a href="#" title="Html">Pacotes</a></li>
+		  <li class="item"><a href="#" title="Css">Destinos</a></li></li>
+		  <li class="item button"><a href="#" title="Entrar"><i class="icon icon-plug"></i> Entrar</a></li>
+		  <li class="item button secondary"><a href="#" title="Cadastro"><i class="icon icon-lock-1"></i> Cadastro</a></li>
+		  <li class="toggle"><span class="bars"></span></li>
+		
+		</ul>
+		
+	  </nav>
     <style>
         p{
             text-align: justify;
@@ -12,17 +30,6 @@
 
 </head>
 <body>
-	<header>
-		<h1>Minha agência de turismo</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Destinos</a></li>
-				<li><a href="#">Pacotes</a></li>
-				<li><a href="#">Contato</a></li>
-			</ul>
-		</nav>
-	</header>
 
     <img src="./imagens/4112821-removebg-preview.png" alt="" class="imagem">
 
@@ -60,6 +67,45 @@
 		  <footer>&copy; 2023 Minha Agência de Turismo. Todos os direitos reservados.</footer>
 
 	  </main>
+
+	  <a href="#" class="btn-gradient">Mais Informações</a>  --border degrade--
+
+
+	  <div class="box-formulario">        
+        
+        <div class="formulario">
+            
+            <div class="thirteen">
+              <h1>Fale conosco</h1>
+            </div>
+            <form action="#" method="post">
+                     
+                <span>
+                    <input type="text" class="input-swing-down" id="nome" name="nome" placeholder="Nome" autocomplete="off" required=""/>
+                    <label for="nome"> <i class="icon icon-user-outline"></i> </label>
+                </span>
+                <span>
+                    <input type="text" class="input-swing-down" id="email" name="email" placeholder="E-mail" autocomplete="off" required=""/>
+                    <label for="email"> <i class="icon icon-mail-3"></i> </label>
+                </span>
+                <span>
+                    <input type="text" class="input-swing-down" id="assunto" name="assunto" placeholder="Assunto" autocomplete="off" required=""/>
+                    <label for="assunto"> <i class="icon icon-info"></i> </label>
+                </span>
+                <span>
+                    <textarea type="text" class="textarea-swing-down" id="mensagem" name="mensagem" rows="3" placeholder="Mensagem" autocomplete="off" required=""></textarea>
+                    <label for="mensagem"> <i class="icon icon-bubble-4"></i> </label>
+                </span>
+                <div class="box-btn">
+                     
+                    <button type="submit" class="btn-3d">
+                        <i class="icon icon-forward-1"> Enviar</i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div><!--Box Formulario-->   
+
 
   </body>
 
